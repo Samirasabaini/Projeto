@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de Filme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .movie {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .movie img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        .movie p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .movie a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .movie a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recomendação de Filme</h1>
+        <div class="movie">
+            <h2>O Poderoso Chefão</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/pt/a/a4/The_Godfather_%28movie%29.jpg" alt="O Poderoso Chefão">
+            <p>Uma das maiores obras-primas do cinema, "O Poderoso Chefão" (1972) de Francis Ford Coppola, é um épico sobre a máfia e a lealdade familiar.</p>
+            <a href="https://www.imdb.com/title/tt0068646/" target="_blank">Saiba mais no IMDb</a>
+        </div>
+    </div>
+</body>
+</html>
